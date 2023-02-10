@@ -14,7 +14,7 @@ void main(List<String> args) {
   // User input
   String UserPrefrence = stdin.readLineSync()!;
 
-  // If it's on the menu then print the price.
+  // If it's on the menu then call the function and print the price.
   if (PizzaMenu.containsKey(UserPrefrence)) {
     int price = getPrice(PizzaMenu, UserPrefrence);
     print ("The price for $UserPrefrence is: $price EGP.");
