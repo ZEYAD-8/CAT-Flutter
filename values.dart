@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  // Creating a funny map and a list for the values
+  // Creating a funny map
   Map ThisIsAMap = {'Name' : 'Dora', 'Age' : '9 years old' , 'Job' : "Can't find a job", 'Address' : 'Homeless'};
 
   // Calling the function to get the values
