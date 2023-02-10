@@ -15,7 +15,7 @@ List getValues (Map ThisIsAMap)
   // Creating a list to save the values
   List valuesOftheMap = [];
 
-  // Iterating over the map and saving the saving in the list
+  // Iterating over the map and saving the values in the list
   ThisIsAMap.forEach((key, value) { 
     valuesOftheMap.add(value);
   });
