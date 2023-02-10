@@ -6,7 +6,7 @@ void main(List<String> args) {
   List valuesOfthatMap = getValues(ThisIsAMap);
 
   // Printing the values
-  print(valuesOfthatMap);
+  printValues(valuesOfthatMap);
 }
 
 // This function takes a Map and return the values
@@ -21,4 +21,12 @@ List getValues (Map ThisIsAMap)
   });
 
   return valuesOftheMap;
+}
+
+// This function takes a list and print the values individually
+void printValues (List Values)
+{
+  Values.forEach((value) {
+    print(value);
+  });
 }
