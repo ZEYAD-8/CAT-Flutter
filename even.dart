@@ -11,6 +11,4 @@ void main(List<String> args) {
   } else {
     print ("Nope, this list doesn't contain any even numbers");
   }
-
-  mylist.shuffle();
 }
