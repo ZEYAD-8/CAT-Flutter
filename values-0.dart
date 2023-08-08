@@ -1,4 +1,5 @@
 void main(List<String> args) {
+<<<<<<< HEAD
   // Creating a funny map
   Map ThisIsAMap = {'Name' : 'Dora', 'Age' : '9 years old' , 'Job' : "Can't find a job", 'Address' : 'Homeless'};
 
@@ -30,3 +31,18 @@ void printValues (List Values)
     print(value);
   });
 }
+=======
+  // Original list
+  List a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
+  // Empty list for the expected values
+  List b = [];
+  // comparing each value with 13 and adding the valid numbers to the list
+  a.forEach((number) {
+    if (number < 13) {
+      b.add(number);
+    }
+  });
+  // printing the new list
+  print(b);
+  }
+>>>>>>> CAT-Tasks-4/main
